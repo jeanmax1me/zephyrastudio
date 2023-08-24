@@ -2,7 +2,7 @@
 
 function page() {
   return (
-    <div>page</div>
+    <div className="bg-yolo tracking-widest text-8xl text-center h-[3em] mt-3"></div>
   )
 }
 

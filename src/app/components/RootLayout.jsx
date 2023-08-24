@@ -41,7 +41,7 @@ const Header = ({
             aria-controls={panelId}
             className={clsx(
               "group -m-2.5 rounded-full p-2.5 transition",
-              invert ? "hover:bg-white/10" : "hover:bg-neutral-950/10"
+              invert ? "hover:bg-yolo" : "hover:bg-yolo4"
             )}
             aria-label="Toggle navigation"
           >
