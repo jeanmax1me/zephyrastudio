@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Logo = ({ invert, href, className, children, ...props }) => {
     className = clsx(
-        className, "black",
-        invert ? "text-white hover:text-[#9a61a9]" : "text-black hover:text-[#9a61a9]"
+        className, 
+        invert ? "text-white hover:text-[#9a61a9]" : "text-black hover:text-[#6c7af7]"
     );
     const inner = <span className="relative">{children}</span>;
     if (href) {

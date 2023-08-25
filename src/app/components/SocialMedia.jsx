@@ -36,7 +36,7 @@ const SocialMedia = ({ className, invert = false }) => {
               invert ? "hover:text-neutral-200" : "hover:text-neutral-700"
             )}
           >
-            <item.icon className="h-6 w-6 fill-current" />
+            <item.icon className="h-6 w-6 fill-current hover:fill-[#9a61a9] transition" />
           </Link>
         </li>
       ))}
