@@ -3,14 +3,14 @@ import clsx from "clsx";
 import {
   BsTwitter,
   BsGithub,
-  BsYoutube,
+  BsLinkedin,
 } from "react-icons/bs";
 
 export const SocialMediaProfiles = [
   {
-    title: "Youtube",
-    href: "https://www.youtube.com/@7ChaleurAberrante/",
-    icon: BsYoutube,
+    title: "LinkedIn",
+    href: "https://www.linkedin.com/in/jean-maxime-gilbert-2878a6295/",
+    icon: BsLinkedin,
   },
   { title: "GitHub", href: "https://github.com/jeanmax1me/", icon: BsGithub },
   { title: "Twitter", href: "https://twitter.com/jeanmax1me", icon: BsTwitter },
